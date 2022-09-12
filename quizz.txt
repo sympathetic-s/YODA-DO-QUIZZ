@@ -1,0 +1,92 @@
+namespace QuizTeste
+	{
+	    internal class Program
+	    {
+	        static void Main(string[] args)
+	        {
+	           const string sTITULO = "\nYODA do quiz";
+	            const string sNick = "Informe o seu nick:";
+	            const string sElo = "Informe seu elo:";
+	            string sResposta = "Sua resposta";
+	            string sFinal = "Resultado final";
+	            const string sQuestãoW = "Questão W!";
+	            const string sQuestãoX = "Questão X!";
+	            const string sQuestãoY = "Questão Y!";
+	            const string sQuestãoZ = "Questão Z!";
+	            const string mensagemAdcional = "Acertou MIZERAVI";
+	            
+	            string sMsg = "Resultado:";
+	            int respostaW;
+	            respostaW = 4;
+	            int respostaY;
+	            respostaY = 4;
+	            int respostaX;
+	            respostaX = 3;
+	            int respostaZ;
+	            respostaZ = 2;
+	
+
+	            Console.WriteLine(sTITULO);
+	            Console.WriteLine();
+	
+
+	            Console.WriteLine(sNick);
+	            Console.ReadLine();
+	
+
+	            Console.Write(sElo);
+	            Console.ReadLine();
+	
+
+	            Console.WriteLine("Vamos começar com o show da discórdia");
+	            Console.ReadLine();
+	
+
+	            //  Estou com grandes dificuldades em identificar e computar a resposta certa
+	            { 
+	            Console.WriteLine("QuestãoW");
+	            Console.WriteLine("Qual é o personagem que o jeff mais feda?");
+	            Console.WriteLine("1 - Seraphine");
+	            Console.WriteLine("2 - Jana");
+	            Console.WriteLine("3 - ekko");
+	            Console.WriteLine("4 - Todas alternativas anteriores");
+	            Console.Write(sResposta);
+	            }
+	            if (respostaW == 4);
+	            {
+	                Console.WriteLine(mensagemAdcional);
+	
+
+	            }
+	            Console.ReadLine();
+	
+
+	           
+	            Console.WriteLine("QuestãoY");
+	            Console.WriteLine("Como você descreveria o desempenho do Renan de Samira?");
+	            Console.WriteLine("1 - Mediano");
+	            Console.WriteLine("2 - Horrível");
+	            Console.WriteLine("3 - Da pro gasto se ele não ficar respondendo o insta");
+	            Console.WriteLine("4 - Horrível só que pela visão IMPECÁVEL do RB");
+	            Console.Write(sResposta);       
+	            Console.ReadLine();
+	
+
+	            Console.WriteLine("QuestãoX");
+	            Console.WriteLine("Se você é um nasus top e está contra um mordekaiser qual tipo de resistência deve fazer?");
+	            Console.WriteLine("1 - Armor");
+	            Console.WriteLine("2 - Fé");
+	            Console.WriteLine("3 - Resistência mágica");
+	            Console.WriteLine("4 - Só god KNOWS");
+	            Console.Write(sResposta);
+	            Console.ReadLine();
+	
+
+	            Console.WriteLine("QuestãoZ");
+	            Console.WriteLine("Quando você está com dificuldades em dar dano qual é a melhor alternativa?");
+	            Console.WriteLine("1 - O seu time não ajuda");
+	            Console.WriteLine("2 - Só consegui dar 10k de dano");
+	            Console.WriteLine("3 - Não tem time");
+	            Console.WriteLine("4 - Tem player afk");
+	            Console.Write(sResposta);
+	            Console.ReadLine();
